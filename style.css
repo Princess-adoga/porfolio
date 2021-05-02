@@ -1,28 +1,31 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* 
+  body{
+      background: rgb(207, 255, 249);
+      max-height: 100vh;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
   }
-  .top{
-      margin-left: 60%;
-      padding: 2em;
-      width:100% ;
-      color:rgb(27, 129, 177);
-      display: grid;
-  }
-  img{
-      height: 200px;
-      margin-left: 50px;
-  }
-  h3{
-      color: rgb(19, 20, 20);
-      font-size: 40px;
-  }
-  .bottom{
-      width: 50%;
-      padding: 2em;
-      margin-right: 70%;
-  }
-  p{
-      padding: 10px;
-  }
+
+.profile-img.img{
+  height: 100vh;
+  max-height: 100vh;
+  
+}
+.top{
+    float: right;
+    padding-right: 30px;
+    width: 40%;
+
+}
+h1{
+    color: rgb(21, 93, 226);
+    padding:1em;
+}
+
+a{
+    color: rgb(83, 155, 11);
+    padding: 1em;
+}
+a:hover{
+    color: rgb(34, 51, 0);
+}
